@@ -1,0 +1,341 @@
+/* body{
+    height: 1000vh;
+} */
+.container-fluid{
+    width: 90% !important;
+}
+
+/*########################### Start of Section 1 ############################### */
+
+.over{
+    background-color: rgba(0,0,0,.3);
+    height: inherit;
+    padding-top: 1rem !important;
+}
+
+.section_1{
+    background-image: url("../images/asset2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    /* padding-top: 1rem; */
+}
+
+.head{
+    position: fixed;
+    z-index: 455;
+    width: 90%;
+}
+
+.section_1 .container-fluid .nav_bar nav img{
+    width: 160px;
+    cursor: pointer;
+}
+
+
+.section_1 .container-fluid .nav_bar nav ul li .nav-link{
+    color: rgb(124, 108, 108);
+    padding-right: 1.5rem;
+    font-family: sans-serif;
+}
+
+.section_1 .container-fluid .nav_bar nav ul li .nav-link:hover{
+    color: #fff;
+}
+
+.section_1 .content .container-fluid h2{
+    color: #fff;
+   
+}
+
+.section_1 .content .container-fluid h1{
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section_1 .content .container-fluid p{
+    color: rgb(240, 205, 205);
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section_1 .content .container-fluid a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+.section_1 .content .container-fluid .learn{
+   background-color: #8e7754;
+}
+
+.section_1 .content .container-fluid .contact{
+   border: 2px solid #fff;
+}
+
+.section_1 .content .container-fluid .contact:hover ,.section_1 .content .container-fluid .learn:hover{
+   background-color: #fff;
+   color: #000;
+}
+
+
+.section_1 .content .container-fluid .frame{
+    width: 32px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid hsla(0,0%,100%,.7);
+    border-radius: 24px;
+    position: relative;
+    bottom: 5%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.section_1 .content .container-fluid span{
+    background-color: hsla(0,0%,100%,.9);
+    height: 8px;
+    width: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 11px;
+    animation: rep 5s ease-in-out infinite;
+}
+@keyframes rep{
+    0%{
+        top: 35px;
+    }
+    25%{
+        top: 10px;
+    }
+    50%{
+        top: 35px;
+    }
+    75%{
+        top: 10px;
+    }
+    100%{
+        top:35px
+    }
+}
+/* @keyframes rep{
+   from{
+       top: 40px;
+   }
+   to{
+       top: 10px;
+   }
+} */
+
+@media(max-width:630px)
+{
+    .section_1 .content .container-fluid h1{
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width:497px)
+{
+    .section_1 .content .container-fluid h1{
+        font-size: 2.5rem;
+        margin-top: 0rem;
+    }
+}
+
+@media(max-width:406px)
+{
+    .section_1{
+        height: auto;
+    }
+    .section_1 .content .container-fluid a{
+        display: block;
+        margin-bottom: 2rem;
+    }
+    .section_1 .content .container-fluid .frame{
+        margin-top: 0rem !important;
+        padding-top: 0rem !;
+    }
+}
+
+/*####################### End of Section 1 #####################*/
+
+/*####################### Start of button #####################*/
+.btn{
+    position: absolute;
+    top: 10rem;
+    right: 2rem;
+}
+
+.btn i{
+   font-size: 1.4rem;
+   padding-bottom: 0.5rem;
+   padding-top: 0.5rem;
+   color: #000;
+   padding-right: 1rem;
+   cursor: pointer;
+}
+.btn i:hover{
+    color: blue;
+}
+
+.btn .fixed{
+    position: fixed;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 0.7rem;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+/*####################### End of button #####################*/
+
+/*####################### Start of Section 1 #####################*/
+
+.section_2 img{
+    width: 95%;
+    height: 95%;
+}
+
+.section_2 h3{
+    color: #303030;
+    font-size: 2rem;
+}
+
+.section_2 p{
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans,sans-serif,monospace;
+}
+
+.section_2 i{
+    padding: 10px;
+    border: 1px solid #929292;
+    border-radius: 50%;
+    margin-right: 4px;
+    color: #8e7754;
+}
+
+/*####################### End of Section 2 #####################*/
+
+/*####################### Start of Section 3 #####################*/
+
+.section_3 .card{
+    width: 100% !important;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.section_3 .card h4{
+    font-size: 1.3rem;
+}
+
+.section_3 .card p{
+    color: #686868;
+    font-family: Alegreya Sans,sans-serif,monospace;
+}
+
+/*####################### End of Section 3 #####################*/
+
+/*####################### Start of Section 4 #####################*/
+
+.section_4 h3{
+    color: #303030;
+    font-size: 1.6rem;
+}
+
+.section_4 p{
+    color: #686868;
+    font-family: Alegreya Sans,sans-serif,monospace;
+}
+
+
+.section_4 i{
+    padding: 10px;
+    font-size: 1.3rem;
+    border: 1px solid #929292;
+    border-radius: 50%;
+    margin-right: 4px;
+    color: #484848;
+}
+
+
+/*####################### End of Section 4 #####################*/
+
+/*####################### Start of Section 5 #####################*/
+
+.section_5{
+    background: #403d38;
+}
+
+.section_5 h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.section_5 p{
+    border-bottom: 1px solid #303030;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #969696;
+    font-size: 1.2rem;
+}
+
+.section_5 i{
+   font-size: 1.5rem;
+   padding: 7px;
+}
+
+/*####################### End of Section 5 #####################*/
+
+/*####################### Start of Section 6 #####################*/
+
+.section_6{
+    background: #353330;
+}
+
+.section_6 h6{
+    font-size: 14px;
+    color: #969696;
+}
+
+
+.section_6 i{
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    margin-right: 4px;
+    background: #484540;
+    color: #8c8a86;
+    cursor: pointer;
+}
+
+.section_6 .fa-facebook:hover,.section_6 .fa-linkedin-in:hover,.section_6 .fa-twitter:hover{
+    color: #fff;
+    background-color: blueviolet;
+}
+
+.section_6 .fa-google-plus-g:hover{
+    color: #fff;
+    background-color: red;
+}
+
+@media(max-width:400px)
+{
+    .section_6 img{
+        width: 100%;
+    }
+}
+
+/*####################### End of Section 6 #####################*/
